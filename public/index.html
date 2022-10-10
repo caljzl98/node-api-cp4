@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!-- ***
+Calvin Jun Zhong Lim
+05/19/2022
+Section: AB
+TAs: Max Bi, Max Beard
+
+This is the index.html page for my fourth CP in the class. It includes a header, and a list of
+books fetched from our local API using Node.js. It also includes a form whereby a user can add
+to the list of books. A footer is also included to cite contents used.
+*** -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>3-Sentence Book Summary</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Books By Title</h1>
+    </header>
+
+    <section id="main-body">
+      <p>Click on the book title to expand/collapse.</p>
+      <section id="books-list">
+        <ul id="books"></ul>
+      </section>
+
+      <section id="add-book">
+        <p>Fancy adding a book for yourselves?
+          <span id="add-button">Click here!</span>
+        </p>
+        <form id="add-book-form" class="hidden">
+          <div>
+            <label for="book-title">Book Title</label>
+            <input id="book-title" type="text" name="book-title">
+            <label for="author">Author Name</label>
+            <input id="author" type="text" name="author">
+          </div>
+          <label for="summary-1">Sentence 1</label>
+          <input id="summary-1" type="text" name="summary-1">
+          <br>
+          <label for="summary-2">Sentence 2</label>
+          <input id="summary-2" type="text" name="summary-2">
+          <br>
+          <label for="summary-3">Sentence 3</label>
+          <input id="summary-3" type="text" name="summary-3">
+          <button>Add Summary</button>
+        </form>
+      </section>
+    </section>
+
+    <section id="error-body" class="hidden">
+      <p>ERROR:</p>
+    </section>
+
+    <footer>
+      Credits to
+      <a href="https://jamesclear.com/book-summaries">James Clear</a>
+      for the book summaries.
+    </footer>
+  </body>
+</html>

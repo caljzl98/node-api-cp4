@@ -1,0 +1,40 @@
+/*
+Calvin Jun Zhong Lim
+05/19/2022
+Section: AB
+TAs: Max Bi, Max Beard
+
+This is the styles.css page that is used by index.html. It is inspired by minimalism.
+*/
+
+.hidden {
+  display: none;
+}
+
+.book-title,
+#add-button {
+  cursor: pointer;
+}
+
+#add-book {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#find-book p {
+  margin-top: 0;
+}
+
+#add-book-form {
+  padding: 10px;
+}
+
+#add-book-form > div,
+#add-book-form > input,
+button {
+  margin-bottom: 15px;
+}
+
+#add-book-form > input {
+  width: 90%;
+}
