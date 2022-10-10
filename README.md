@@ -11,7 +11,7 @@ npm install
 node app.js
 ```
 OR
-(this command keeps the server updated and running even when files are changed within the directory)
+(the command below keeps the server updated and running even when files are changed within the directory)
 ```
 nodemon app.js
 ```
