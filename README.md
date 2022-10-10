@@ -9,7 +9,10 @@ npm install
 3. Then run the project on Node.js (type in terminal):
 ```
 node app.js
+```
 OR
+(this command keeps the server updated and running even when files are changed within the directory)
+```
 nodemon app.js
 ```
 4. Navigate to localhost:8000. You should see the project running in your browser.
