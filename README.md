@@ -1,4 +1,24 @@
 # Creative Project 4 Specification
+Steps to run the program: 
+1. Download the repository into your local folder.
+
+2. Install the dependencies:
+```
+npm install
+```
+3. Then run the project on Node.js (type in terminal):
+```
+node app.js
+```
+OR
+(the command below keeps the server updated and running even when files are changed within the directory)
+```
+nodemon app.js
+```
+4. Navigate to localhost:8000. You should see the project running in your browser.
+5. To stop Node.js from running, press CTRL+C (Windows) or CMD+C (Mac) while in terminal.
+
+
 ## Overview
 For your fourth Creative Project, you will create your own Node.js web service available for use with AJAX and fetch. Once again, as a Creative Project, you have freedom to have more ownership in your work, as long as you meet the requirements listed below.
 
